@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.img {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+main {
+    padding-bottom: 66px; /* the padding at the top off the <main> adds up to 66px */
+}

@@ -1,0 +1,41 @@
+#pagination {
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#pagination-column {
+    background: #e7e7e7;
+    border-radius: 50px;
+    height: 40px;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+/* styles the pagination links */
+#pagination a:link {
+    border-radius: 25px;
+    color: #000000;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#pagination a:visited {
+    color:  #000000;
+}
+
+#pagination a:hover {
+    background: #cfcfcf;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+/* styles the css of the current pagination link */
+.page-numbers.current {
+    background: #cfcfcf;
+    border-radius: 25px;
+    color: red;
+    padding: 5px 10px;
+}

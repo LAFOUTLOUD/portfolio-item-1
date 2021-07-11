@@ -1,0 +1,41 @@
+/*
+
+Theme Name: Sunset
+Theme URI: http://wordpress.org/themes/wp_template
+Author: Leonard A. Farrington Jr.
+Description:
+Tags:
+License:
+Version: 1.0
+
+*/
+
+/* imports the global css file */
+@import url(./assets/css/_global.css);
+
+/* imports the grid system */
+@import url(./assets/css/_grid.css);
+
+/* import css files */
+@import url(./assets/css/_variables.css);
+
+/* imports the nav */
+@import url(./assets/css/_nav.css);
+
+/* imports the hero image */
+@import url(./assets/css/_hero.css);
+
+/* imports the category */
+@import url(./assets/css/_category.css);
+
+/* imports the article */
+@import url(./assets/css/_article.css);
+
+/* imports the pagination */
+@import url(./assets/css/_pagination.css);
+
+/* imports the sidebar */
+@import url(./assets/css/_sidebar.css);
+
+/* imports the footer */
+@import url(./assets/css/_footer.css);

@@ -1,0 +1,150 @@
+#sidebar {
+    float: left;
+    width: 40%;
+}
+
+/* sidebar section 1 */
+
+.sidebar-section-1-img {
+    border-radius: 100%;
+    max-height: 125px;
+    width: 100%;
+}
+
+#latest-post {
+    margin: 0px 0px 10px 0px;
+    text-transform: capitalize;
+}
+
+#sidebar h2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0px;
+    text-transform: capitalize;
+}
+
+#sidebar-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.sidebar-row {
+    /* background: green; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: table;
+    height: 120px;
+    padding: 10px;
+}
+
+.sidebar-row-column-1 {
+    float: left;
+    height: 100%;
+    width: 29%;
+}
+
+.sidebar-row-column-2 {
+    float: left;
+    width: 70%;
+}
+
+.sidebar-row-column-2-content {
+    padding: 10px 10px;
+}
+
+#sidebar a:link {
+    color: #000000;
+}
+
+#sidebar a:visited {
+    color: #000000;
+}
+
+/* sidebar section 2 */
+
+#sidebar-section-2 {
+    margin: 100px 0px;
+}
+
+#sidebar-section-2 h4 {
+    font-size: 12px;
+    margin: 0px 0px 10px 0px;
+    text-transform: capitalize;
+}
+
+#form-group {
+    height: 16px;
+    width: 228px;
+}
+
+#sidebar-section-2 input {
+    border: none;
+    box-shadow: 5px 5px 5px 1px rgb(0, 0, 0, 0.1);
+    outline: none;
+    padding: 7px;
+    width: 100%;
+}
+
+#search-bar-btn {
+    background: #e5e5e5;
+    border: none;
+    height: 30px;
+    position: relative;
+    right: -200px;
+    top: -30px;
+    width: 30px;
+}
+
+#search-bar-btn:hover {
+    cursor: pointer;
+}
+
+#sidebar-section-3 h4 {
+    text-transform: capitalize;
+}
+
+#tags-container {
+    width: 500px;
+}
+
+/* sidebar section 3 */
+
+#sidebar-section-3 a:link {
+    background: #e7e7e7;
+    border-radius: 20px;
+    display: inline-flex;
+    margin: 0px 20px 20px 0px;
+    padding: 10px 30px;
+}
+
+#sidebar-section-3 a:visited {
+    color: #000000;
+}
+
+#sidebar-section-3 a:hover {
+    background-color: #0B1C41;
+    color: #ffffff;
+}
+
+/* Single.php Sidebar */
+
+#single-sidebar {
+    float: left;
+    margin-left: 20px;
+    width: 40%;
+}
+
+#single-sidebar h2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0px;
+    text-transform: capitalize;
+}
+
+#single-sidebar a:link {
+    color: #000000;
+}
+
+#single-sidebar a:visited {
+    color: #000000;
+}

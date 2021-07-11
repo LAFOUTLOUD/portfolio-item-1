@@ -1,0 +1,31 @@
+#category-section {
+    padding: 50px 0px;
+}
+
+#category-section ul {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+#category-section li {
+    padding: 0px 30px;
+}
+
+#category-section a:link {
+    background: #e7e7e7;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #dbdbdb;
+    color: #000000;
+    font-size: 12px;
+    padding: 5px 15px;
+}
+
+#category-section a:visited {
+    color: #000000;
+}
+
+#category-section a:hover {
+    background: #0B1C41;
+    color: #ffffff;
+}

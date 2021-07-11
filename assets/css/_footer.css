@@ -1,0 +1,97 @@
+footer {
+    background: #191919;
+    position: absolute;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer h4 {
+    color: #7f7f7f;
+    margin: 0px;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+}
+
+footer p {
+    color: #7f7f7f;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+#footer-row-1 {
+    display: table;
+    height: 200px;
+    padding: 50px;
+}
+
+/* Logo, Social Media Links */
+
+#footer-column-1 {
+    float: left;
+    height: 200px;
+    margin-right: 150px;
+    width: 30%;
+}
+
+#footer-column-1 p {
+    margin-top: 16px;
+}
+
+#footer-column-1 li {
+    padding-right: 10px;
+}
+
+/* Recent Posts */
+
+#footer-column-2 {
+    float: left;
+    max-height: 200px;
+    width: 30%;
+}
+
+#footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-column-2-column {
+    flex: 25%;
+    max-width: 14%;
+}
+
+/* Popular Tags */
+
+#footer-column-3 {
+    float: right;
+    height: 200px;
+    width: 21%;
+}
+
+footer li {
+    display: inline;
+}
+
+#footer-column-3 a {
+    background: #e7e7e7;
+    border-radius: 20px;
+    color: #000000;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+}
+
+#footer-column-3 a:hover {
+    background-color: #0B1C41;
+    color: #ffffff;
+}
+
+/* Copyright */
+
+#footer-row-2 {
+    padding: 10px;
+    text-align: center;
+}
